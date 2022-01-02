@@ -1,0 +1,13 @@
+DROP TABLE IF EXISTS `grafico`;
+CREATE TABLE `grafico` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `AtivaC` varchar(10) NOT NULL,
+  `AtivaG` varchar(20) NOT NULL,
+  `Agente` varchar(30) NOT NULL,
+  `Dia` date NOT NULL,
+  `porc_dia` varchar(100) DEFAULT NULL,
+  `ug1` varchar(200) DEFAULT NULL,
+  `ug2` varchar(200) DEFAULT NULL,
+  `rs` varchar(100) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=376 DEFAULT CHARSET=latin1;
